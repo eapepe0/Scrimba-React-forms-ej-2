@@ -24,7 +24,7 @@ export default function Form() {
       <input
         type="text"
         placeholder="Nombre"
-        name="nombre1"
+        name="nombre"
         onChange={handleChange}
       />
       {/* usamos onChange en el input para ver que ingresan , le pasamos una funcion handleChange, 
@@ -32,7 +32,7 @@ export default function Form() {
       <input
         type="text"
         placeholder="Apellido"
-        name="apellido1"
+        name="apellido"
         onChange={handleChange}
       />
     </form>
