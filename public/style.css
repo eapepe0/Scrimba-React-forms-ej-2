@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+input {
+  display: block;
+  margin-bottom: 5px;
+}
